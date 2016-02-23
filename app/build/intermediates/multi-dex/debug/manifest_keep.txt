@@ -1,0 +1,13 @@
+-keep class uk.ac.hw.macs.nl148.iwatt.MainActivity { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.Splash { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.GettingStarted { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.KnowGo { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.TimeTable { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.TimeTableInit { <init>(); }
+-keep class uk.ac.hw.macs.nl148.iwatt.ClassMap { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\mrnel\\Desktop\\Developer\\Projects\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\mrnel\\Desktop\\Developer\\Projects\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\6.5.87\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\mrnel\\Desktop\\Developer\\Projects\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ormlite_config.txt",
+        "source": "C:\\Users\\mrnel\\Desktop\\Developer\\Projects\\app\\src\\main\\res\\raw\\ormlite_config.txt"
+    }
+]

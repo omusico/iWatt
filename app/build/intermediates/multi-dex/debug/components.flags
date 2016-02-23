@@ -1,0 +1,50 @@
+-injars 'C:\Users\mrnel\Desktop\Developer\Projects\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\mrnel\Desktop\Developer\Projects\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\mrnel\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\mrnel\Desktop\Developer\Projects\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class uk.ac.hw.macs.nl148.iwatt.MainActivity {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.Splash {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.GettingStarted {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.KnowGo {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.TimeTable {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.TimeTableInit {
+    <init>();
+}
+
+-keep class uk.ac.hw.macs.nl148.iwatt.ClassMap {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
